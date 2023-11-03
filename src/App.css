@@ -1,0 +1,43 @@
+body{
+  display: flex;
+  justify-content: center;
+  width: '100%';
+  background-color: #DEA900;
+  color: rgb(7, 7, 7);
+  font-style: oblique;
+  font-weight: bold;
+}
+#root{
+  width: 60%;
+}
+.horizontal-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 10px;
+}
+.horizontal-list li {
+  margin-right: 200px;
+  font-style: normal;
+  color: orange;
+
+}
+.button-container {
+  display: flex; /* Usar flexbox para alinhar os elementos horizontalmente */
+}
+.custom-button {
+  background-color: #f15c2b; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  padding: 9px 9px; /* Aumente o espaço interno se necessário */
+  border: #f15c2b; /* Sem borda */
+  border-radius: 19px; /* Borda arredondada */
+  cursor: pointer; /* Cursor de mão ao passar o mouse */
+  font-size: 12px; /* Tamanho da fonte em pixels */
+  margin: 0 20px; /* Adiciona margem à direita do botão */
+}
+
+nav ul li a {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
